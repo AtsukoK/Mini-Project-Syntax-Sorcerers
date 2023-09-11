@@ -5,7 +5,7 @@ class Quest
 
     public string Name;
 
-    public Quest(string discription, int id, string name)
+    public Quest(int id, string discription, string name)
     {
         Discription = discription;
         ID = id;
