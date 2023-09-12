@@ -116,7 +116,7 @@ public static class World
         Location spiderField = new Location(LOCATION_ID_SPIDER_FIELD, "Forest", "You see spider webs covering covering the trees in this forest.", null, null);
         spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_GIANT_SPIDER);
 
-        Location spiderField = new Location(LOCATION_ID_TRAINING_AREA, "Training Area", "Training room, wide open space. A small rat is seen waiting for you.", null, null);
+        Location trainingarea = new Location(LOCATION_ID_TRAINING_AREA, "Training Area", "Training room, wide open space. A small rat is seen waiting for you.", null, null);
         spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_RAT);
 
         // Link the locations together
@@ -155,6 +155,7 @@ public static class World
         Locations.Add(farmersField);
         Locations.Add(bridge);
         Locations.Add(spiderField);
+        Locations.Add(trainingarea);
     }
 
     public static Location LocationByID(int id)

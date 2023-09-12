@@ -1,0 +1,4 @@
+C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.csproj.CoreCompileInputs.cache
