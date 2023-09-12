@@ -7,7 +7,7 @@ class Player
     public string Name;
 
 
-    public Player(int currenthitpoints, int currentlocation, int currentweapon, int maximumhitpoints, string name, int health)
+    public Player(int currenthitpoints, int currentlocation, int currentweapon, int maximumhitpoints, string name)
     {
         CurrentHitPoints = currenthitpoints;
         CurrentLocation = currentlocation;
