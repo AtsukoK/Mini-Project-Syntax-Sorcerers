@@ -1,11 +1,10 @@
-// Namespace here.
 public class AdventureGame
 {
     private Location _playerCurrentLocation;
 
     public AdventureGame()
     {
-        _playerCurrentLocation = World.GetLocation(World.LOCATION_ID_HOME);
+        _playerCurrentLocation = World.LocationByID(World.LOCATION_ID_HOME);
     }
 
     public void Launch()

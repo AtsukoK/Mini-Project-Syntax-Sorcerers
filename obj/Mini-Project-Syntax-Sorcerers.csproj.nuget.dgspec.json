@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj": {}
+    "C:\\Users\\sec\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj": {
+    "C:\\Users\\sec\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj",
+        "projectUniqueName": "C:\\Users\\sec\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj",
         "projectName": "Mini-Project-Syntax-Sorcerers",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\obj\\",
+        "projectPath": "C:\\Users\\sec\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\Mini-Project-Syntax-Sorcerers.csproj",
+        "packagesPath": "C:\\Users\\sec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sec\\Documents\\GitHub\\Mini-Project-Syntax-Sorcerers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sec\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

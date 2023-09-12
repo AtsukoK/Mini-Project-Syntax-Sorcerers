@@ -2,3 +2,17 @@ C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\M
 C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.AssemblyInfoInputs.cache
 C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.AssemblyInfo.cs
 C:\Users\Admin\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.csproj.CoreCompileInputs.cache
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.AssemblyInfoInputs.cache
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.AssemblyInfo.cs
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.csproj.CoreCompileInputs.cache
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\bin\Debug\net7.0\Mini-Project-Syntax-Sorcerers.exe
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\bin\Debug\net7.0\Mini-Project-Syntax-Sorcerers.deps.json
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\bin\Debug\net7.0\Mini-Project-Syntax-Sorcerers.runtimeconfig.json
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\bin\Debug\net7.0\Mini-Project-Syntax-Sorcerers.dll
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\bin\Debug\net7.0\Mini-Project-Syntax-Sorcerers.pdb
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.dll
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\refint\Mini-Project-Syntax-Sorcerers.dll
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.pdb
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\Mini-Project-Syntax-Sorcerers.genruntimeconfig.cache
+C:\Users\sec\Documents\GitHub\Mini-Project-Syntax-Sorcerers\obj\Debug\net7.0\ref\Mini-Project-Syntax-Sorcerers.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Mini-Project-Syntax-Sorcerers/1.0.0": {
+        "runtime": {
+          "Mini-Project-Syntax-Sorcerers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mini-Project-Syntax-Sorcerers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
