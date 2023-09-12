@@ -5,15 +5,23 @@ class Player
     public int CurrentWeapon;
     public int MaximumHitPoints;
     public string Name;
+    public int Health;
 
-    public Player(int currenthitpoints, int currentlocation, int currentweapon, int maximumhitpoints, string name)
+    public Player(int currenthitpoints, int currentlocation, int currentweapon, int maximumhitpoints, string name, int health)
     {
         CurrentHitPoints = currenthitpoints;
         CurrentLocation = currentlocation;
         CurrentWeapon = CurrentWeapon;
         MaximumHitPoints = maximumhitpoints;
         Name = name;
+        Health = health;
     }
 
-
+    public void PlayerHealthRecovery(Location location)
+    {
+        if (location.monsterlivinghere == null)
+        {
+            Health += 15;
+        }
+    }
 }
