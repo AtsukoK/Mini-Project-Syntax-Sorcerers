@@ -13,4 +13,12 @@ class Location
         MonsterLivingHere = monsterlivinghere
     }
 
+    public void PlayerSeeLocation(World world)
+    {
+        foreach (Location location in world.Locations)
+        {
+            Console.WriteLine($"You are currently at: {location.Name}");
+            Console.WriteLine($"Description: {location.Discription}");
+        }
+    }
 }
