@@ -12,7 +12,7 @@ class Program
 
     Console.WriteLine("You will now enter game world.");
 
-    GameOver = false;
+    GameOver = true; // should be false on game start for testing, its true
 
     //tutorial - testing phase
 
@@ -21,16 +21,21 @@ class Program
 
     while(!GameOver)  // Game status, on true will exit
     {
-        
-
+        Console.WriteLine("Game status: running");
     }
 
 
-    public bool Tutorial()
-    {
-        Console.WriteLine("Tutorial Time!");
-        Console.WriteLine("You are playing an RPG, throughout the game you will encounter enemies.");
-        Console.WriteLine("We will now simulate one combat scenario.")
+public bool Tutorial()
+{
+    Console.WriteLine("Tutorial Time!");
+    Console.WriteLine("You are playing an RPG, throughout the game you will encounter enemies.");
+    Console.WriteLine("We will now simulate one combat scenario.");
+
+    Player playertutorial = new Player(100, 666, 1, 100, playername);
+    DisplayLocationInfo(playertutorial)
+
+
+
 
     }
 
