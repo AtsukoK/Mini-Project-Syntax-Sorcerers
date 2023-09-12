@@ -1,6 +1,6 @@
-class Program
+public class Program
 {
-    public void Main()
+    public static void Main()
     {
         Console.WriteLine("This is game , no work yet.");
 
@@ -26,14 +26,14 @@ class Program
             Console.WriteLine("Game status: running");
         }
     }
-    public void Tutorial()
+    public static void Tutorial()
     {
         Console.WriteLine("Tutorial Time!");
         Console.WriteLine("You are playing an RPG, throughout the game you will encounter enemies.");
         Console.WriteLine("We will now simulate one combat scenario.");
 
         Player playertutorial = new Player(100, 666, 1, 100, "adventurer");
-        Console.WriteLine(DisplayLocationInfo(playertutorial));
+        DisplayLocationInfo(playertutorial);
     }
 
 }

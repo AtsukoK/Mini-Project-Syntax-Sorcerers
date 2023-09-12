@@ -25,7 +25,7 @@ public class Location
 
     public void DisplayLocationInfo(Player playerobj)
     {
-        Location locationobj = LocationByID(playerobj.CurrentLocation);
+        Location locationobj = Location.LocationByID(playerobj.CurrentLocation);
         Console.WriteLine($"You are currently at location : {locationobj.Name}");
         Console.WriteLine($"{locationobj.Discription}");
     }
