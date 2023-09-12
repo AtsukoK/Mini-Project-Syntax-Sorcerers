@@ -27,6 +27,7 @@ public static class World
     public const int LOCATION_ID_FARM_FIELD = 7;
     public const int LOCATION_ID_BRIDGE = 8;
     public const int LOCATION_ID_SPIDER_FIELD = 9;
+    public const int LOCATION_ID_TRAINING_AREA = 666;
 
     static World()
     {
@@ -114,6 +115,9 @@ public static class World
 
         Location spiderField = new Location(LOCATION_ID_SPIDER_FIELD, "Forest", "You see spider webs covering covering the trees in this forest.", null, null);
         spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_GIANT_SPIDER);
+
+        Location spiderField = new Location(LOCATION_ID_TRAINING_AREA, "Training Area", "Training room, wide open space. A small rat is seen waiting for you.", null, null);
+        spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_RAT);
 
         // Link the locations together
         home.LocationToNorth = townSquare;
