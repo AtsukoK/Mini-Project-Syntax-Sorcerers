@@ -117,7 +117,7 @@ public static class World
         spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_GIANT_SPIDER);
 
         Location trainingarea = new Location(LOCATION_ID_TRAINING_AREA, "Training Area", "Training room, wide open space. A small rat is seen waiting for you.", null, null);
-        spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_RAT);
+        trainingarea.MonsterLivingHere = MonsterByID(MONSTER_ID_RAT);
 
         // Link the locations together
         home.LocationToNorth = townSquare;
