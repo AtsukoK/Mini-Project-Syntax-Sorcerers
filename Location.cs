@@ -13,4 +13,10 @@ class Location
         MonsterLivingHere = monsterlivinghere
     }
 
+    public DisplayLocationInfo(Player playerobj)
+    {
+        locationobj = LocationByID(playerobj.CurrentLocation);
+        Console.WriteLine($"You are currently at location : {locationobj.Name}")
+        Console.WriteLine($"{locationobj.Discription}")
+    }
 }
