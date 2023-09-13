@@ -10,7 +10,7 @@ public class Program
         Console.WriteLine("Enter name for player:");
         string playername = Console.ReadLine();
         Player player1 = new Player(100, 1, 1, 100, playername); // curr hp, location id , wpn,max hp, name
-
+        Console.WriteLine();
         Console.WriteLine("You will now enter game world.\n");
 
         bool GameOver = true; // should be false on game start for testing, its true
