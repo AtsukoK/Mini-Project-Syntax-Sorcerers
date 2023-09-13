@@ -35,13 +35,21 @@ public class Player
         }
 
         target.MonsterTakeDamage(totalDamage);
-        Console.WriteLine($"{Name} attacks {target.Name}\n{totalDamage} damage");
+        Console.WriteLine($"{Name} attacks {target.Name}\n{totalDamage} damage\n");
     }
 
     public int CalculatePlayerDamage()
     {
         Random random = new Random();
-        int damage = random.Next(10, 25);
+        int damage = random.Next(0, 2);
         return damage;
+    }
+
+    public void PlayerHealthRecovery(Location location)
+    {
+        if (location.MonsterLivingHere == null)
+        {
+            CurrentHitPoints += 20;
+        }
     }
 }

@@ -28,7 +28,7 @@ public class Monster
     {
         int damage = CalculateMonsterDamage();
         target.PlayerTakeDamage(damage);
-        Console.WriteLine($"{Name} attacks {target.Name}\n{damage} damage");
+        Console.WriteLine($"{Name} attacks {target.Name}\n{damage} damage\n");
     }
 
     public int CalculateMonsterDamage()

@@ -35,7 +35,9 @@ public class Program
 
         Player playertutorial = new Player(100, 666, 1, 100, "adventurer");
         Location currentlocationobject = DisplayLocationInfo(playertutorial);
-        CheckForMonster(currentlocationobject);
+        Monster enemy = CheckForMonster(currentlocationobject);
+        EngageInCombat(playertutorial, enemy);
+
 
     }
 
@@ -51,8 +53,8 @@ public class Program
     {
         if (enemycheck.MonsterLivingHere != null)
         {
-            Console.WriteLine($"\n Enemy spotted");
             Monster enemy = enemycheck.MonsterLivingHere;
+            Console.WriteLine($"\n Enemy spotted it's a {enemy.Name}\n");
             return enemy;
         }
         else
@@ -62,5 +64,34 @@ public class Program
 
     }
 
+    public static void EngageInCombat(Player p_obj, Monster m_obj)
+    {
+        bool BattleStarted = true;
+
+        while (BattleStarted)
+        {
+            while (p_obj.CurrentHitPoints > 0 && m_obj.CurrentHitPoints > 0 && BattleStarted)
+            {
+                Console.WriteLine($"{p_obj.Name}'s health is {p_obj.CurrentHitPoints}/{p_obj.MaximumHitPoints}");
+                Console.WriteLine($"{m_obj.Name}'s health is {m_obj.CurrentHitPoints}/{m_obj.MaximumHitPoints}\n");
+                // BattleStarted = false;
+                Console.WriteLine("What is your course of action?   A) Attack   B) Do nothing\n");
+                string combatinput = Console.ReadLine().ToUpper();
+                if (combatinput == "A")
+                {
+                    p_obj.PlayerAttack(m_obj);
+                }
+                else
+                {
+                    Console.WriteLine("You do nothing lol\n");
+                }
+                m_obj.MonsterAttack(p_obj);
+
+
+            }
+            BattleStarted = false;
+            Console.WriteLine("Battle concluded");
+        }
+    }
 
 }
